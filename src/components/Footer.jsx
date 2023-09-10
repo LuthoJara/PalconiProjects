@@ -1,17 +1,17 @@
 import { Facebook, Instagram, MailOutline, PhotoOutlined, Pinterest, RoomOutlined, Twitter } from "@mui/icons-material"
 import styled from "styled-components"
-import paymentMethods from "../images/paymentMethods.png"
+// import paymentMethods from "../images/paymentMethods.png"
 
 ///Routes for the react app
 import {Link} from 'react-router-dom'
 
-const Container = styled.div`
+const Container = styled.div` 
     flex: 1; 
     display: flex;  
     height: auto;
     background-color: #000000;
     padding-bottom: 5px;
-`
+` 
 const Left = styled.div`
     flex: 1;   
     display: flex;
@@ -28,7 +28,7 @@ const Description = styled.p`
 const SocialContainer = styled.div`
     display: flex;
 `
-const SocialIcons = styled(Link)`
+const SocialIcons = styled(Link)` 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -112,7 +112,7 @@ const Footer = () => {
              <MailOutline style={{marginRight: "10px"}}/> Contact@Alqo.co.za
             </ContactItem>
             <ContactItem>
-             <Payment src={paymentMethods}/>
+            {/* <Payment src={paymentMethods}/> */}
             </ContactItem>
         </Right>
     </Container>

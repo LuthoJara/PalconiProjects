@@ -86,6 +86,13 @@ useEffect(() => {
   };
 }, [excludedPaths, pathname, setSticky]);
 
+// Making the navbar links dropdowns
+  // const [isDropdownOpen, setDropdownOpen] = useState(false);
+
+  // const toggleDropdown = () => {
+  // setDropdownOpen(!isDropdownOpen);
+  // };
+
   return (
     <Container>
       <Wrapper sticky={isSticky}>
@@ -102,6 +109,7 @@ useEffect(() => {
           <MenuItem to="/News">News</MenuItem>
           <MenuItem to="/Downloads">Downloads</MenuItem>
           <MenuItem to="/ContactUs">Contact Us</MenuItem>
+                  
         </Right>
       </Wrapper>
     </Container>

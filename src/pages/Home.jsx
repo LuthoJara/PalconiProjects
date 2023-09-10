@@ -1,24 +1,39 @@
 //Importing components
-import Navbar from '../components/Navbar'
+import Navbar from "../components/Navbar";
 // import Slider from '../components/Slider'
-// import Values from '../components/Values'
-// import Services from '../components/Services'
+
+//About us section
+import AboutUs from "../components/AboutUs";
+
+//Social responsibility section
+import SocialResponsibility from "../components/SocialResponibility";
+// import OurServices from '../components/OurServices'
 // import Downloadables from '../components/Downloadables'
 // import Contact from '../components/Contact'
-import Footer from '../components/Footer'
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
     <>
-    <Navbar/>
-    {/* <Slider/>
-    <Values/>
-    <Services/>
-    <Downloadables/>
-    <Contact/> */}
-    <Footer/>
-    </>
-  )
-}
+      <Navbar />
+      {/* <Slider/> */}
 
-export default Home
+      <AboutUs />
+
+      <SocialResponsibility />
+
+      {/* Projects section */}
+
+
+      {/* Downloads section */}
+
+
+      {/* Contact us section */}
+
+
+      <Footer />
+    </>
+  );
+};
+
+export default Home;
